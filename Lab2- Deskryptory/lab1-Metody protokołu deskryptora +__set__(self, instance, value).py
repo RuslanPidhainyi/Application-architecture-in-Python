@@ -1,5 +1,5 @@
 #---------------------------------------------------------------------------------------------------#
-#...
+#__set__(self, instance, value) Ta metoda jest wywoływana, gdy próbujemy ustawić wartość atrybutu, którego deskryptorem jest dana klasa. Parametr instance to instancja klasy, do której deskryptor jest przypisany, a value to nowa wartość, którą próbujemy przypisać do atrybutu
 
 #Prezentacja metody set w deskryptorze
 class Initial_Dyskryptor:

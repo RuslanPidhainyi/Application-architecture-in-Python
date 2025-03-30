@@ -1,5 +1,5 @@
 #---------------------------------------------------------------------------------------------------#
-#...
+# __delete__(self, instance) - ta metoda jest wywoływana, gdy próbujemy usunąć wartość atrybut, którego deskryptorem jest dana klasa. Parametr instance to instancja klasy, do której deskryptor jest przypisany
 
 class Initial_Dyskryptor:
     def __delete__(self, instance):
