@@ -7,6 +7,7 @@ def generator_liczb(n):
     for i in range(n):
         yield i
 
+#Dzieki for mozemy iterowac po generatorze w ktorym znajduje sié yield
 gen = generator_liczb(10)
 for n in gen:
     print(n)
