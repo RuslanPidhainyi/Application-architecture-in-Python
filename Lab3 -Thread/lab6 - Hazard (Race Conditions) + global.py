@@ -14,7 +14,7 @@ import time
 wspoldzielona_zmienna = 0
 
 def increment():
-    global wspoldzielona_zmienna #??!! global дозволяє змінювати глобальну змінну зсередини функції.
+    global wspoldzielona_zmienna #potrzeno unikac slowo kluczowe global. Global дозволяє змінювати глобальну змінну зсередини функції. czyli pozwali zmieniac z poza funkcje zmenna JEZELI uzyjemy slowo global
     temp = wspoldzielona_zmienna 
     time.sleep(0.01)
     temp += 1

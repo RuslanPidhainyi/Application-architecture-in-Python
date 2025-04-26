@@ -15,7 +15,7 @@ wspoldzielona_zmienna = 0
 lock = threading.Lock() # Tworzenie obiektu lock
 
 def increment():
-    global wspoldzielona_zmienna #??!! global дозволяє змінювати глобальну змінну зсередини функції.
+    global wspoldzielona_zmienna # global дозволяє змінювати глобальну змінну зсередини функції.
     with lock:
         temp = wspoldzielona_zmienna 
         time.sleep(0.01)
