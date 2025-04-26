@@ -1,0 +1,1 @@
+#Dzięki użyciu klasy Pipeline z mechanizmem Lock, zapewnione jest bezpieczne współdzielenie danych między wątkami
