@@ -83,4 +83,3 @@ def https_status_code_description(code):
             print("Unknown")
 
 https_status_code_description(httpsStatusCode)
-
